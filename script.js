@@ -8,42 +8,91 @@ const perguntas = [
     {
         enunciado: "Como você descreveria sua personalidade?",
         alternativas: [
-            "Calma e introspectiva",
-            "Energética e extrovertida",
-            "Criativa e espontânea",
-            "Organizada e meticulosa"
+            {
+                texto: "Calma e introspectiva",
+                afirmacao: "afirmação"
+            },
+            {
+                texto: "Energética e extrovertida",
+                afirmacao: "afirmação"
+            },
+            {
+                texto: "Criativa e espontânea",
+                afirmacao: "afirmação"
+            },
+            {
+                texto: "Organizada e meticulosa"
+                afirmacao: "afirmação"
+            } 
         ]
     },
     {
         enunciado: "Qual ambiente você prefere?",
         alternativas: [
-            "Natureza, ao ar livre",
-            "Shows com muita gente",
-            "Lugares tranquilos, como cafés",
-            "Ambientes formais e sofisticados"
+            {
+                texto: "Natureza, ao ar livre",
+                afirmacao: "afirmação"
+            },
+            {
+                texto: "Shows com muita gente",
+                afirmacao: "afirmação"
+            },
+            {
+                texto:  "Lugares tranquilos, como cafés",
+                afirmacao: "afirmação"
+            },
+            {
+                texto: "Ambientes formais e sofisticados"
+                afirmacao: "afirmação"
+            }
         ]
     },
     {
         enunciado: "Você gosta de seguir regras ou prefere criar seu próprio caminho?",
         alternativas: [
-            "Seguir regras traz segurança",
-            "Criar meu próprio caminho é mais divertido"
+            {
+                texto:  "Seguir regras traz segurança",
+                afirmacao: "afirmação"
+            },
+            {
+                texto: "Criar meu próprio caminho é mais divertido"
+                afirmacao: "afirmação"
+            }
+            
         ]
     },
     {
         enunciado: "Como você se relaciona com o ritmo?",
         alternativas: [
-            "Gosto de manter o tempo exato",
-            "Prefiro variar o ritmo conforme a sensação"
+            {
+                texto:  "Gosto de manter o tempo exato",
+                afirmacao: "afirmação"
+            },
+            {
+                texto:  "Prefiro variar o ritmo conforme a sensação"
+                afirmacao: "afirmação"
+            }
         ]
     },
     {
         enunciado: "Qual estilo musical mais te atrai?",
         alternativas: [
-            "Música clássica",
-            "Rock ou pop",
-            "Jazz ou blues",
-            "Folk ou acústico"
+            {
+                texto:    "Música clássica",
+                afirmacao: "afirmação"
+            },
+            {
+                texto:  "Rock ou pop",
+                afirmacao: "afirmação"
+            },
+            {
+                texto:  "Jazz ou blues",
+                afirmacao: "afirmação"
+            },
+            {
+                texto:  "Folk ou acústico"
+                afirmacao: "afirmação"
+            }
         ]
     },
     {
